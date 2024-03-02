@@ -2,9 +2,9 @@
   "name": "express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "start": "nodemon .src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/tungx30/node-js#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.3"
+    "morgan": "^1.10.0",
+    "nodemon": "3.1.0"
   }
 }
